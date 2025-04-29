@@ -1,7 +1,7 @@
 package in.javahome.myweb.controller;
 
-import junit.framework.Assert;
-import junit.framework.TestCase;
+import org.junit.Test;
+import static org.junit.Assert.*;
 
 public class CalculatorTest extends TestCase {
 	Calculator cal = new Calculator();
